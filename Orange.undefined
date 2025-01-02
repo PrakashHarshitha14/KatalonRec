@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCase>
+<selenese>
+	<command>loadVars</command>
+	<target><![CDATA[Data.json]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://www.google.com/search?q=orangehrm+login&rlz=1C1RXQR_en-GBIN1104IN1105&oq=&gs_lcrp=EgZjaHJvbWUqCQgBEEUYOxjCAzIJCAAQRRg7GMIDMgkIARBFGDsYwgMyCQgCEEUYOxjCAzIJCAMQRRg7GMIDMgkIBBBFGDsYwgMyCQgFEEUYOxjCAzIJCAYQRRg7GMIDMgkIBxBFGDsYwgPSAQkyNTY4ajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=//div[@id='rso']/div/div/div/div/div/div/div/span/a/h3]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>storeTitle</command>
+	<target><![CDATA[Title]]></target>
+	<value><![CDATA[$(title)]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[xpath=//input[@name='username']]]></target>
+	<value><![CDATA[$(username)]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[name=password]]></target>
+	<value><![CDATA[admin123]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[name=username]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=//button[@type='submit']]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=//div[@id='app']/div/div/header/div/div[3]/ul/li/span/i]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[link=Logout]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+</TestCase>
